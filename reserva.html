@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="">
+        <fieldset>
+            <legend> Dados de contato</legend>
+            <label>Nome</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Serviços desejados</legend>
+            <label>
+                <input type="checkbox" name="passagens" value="Passagens">Compra de Passagem<br>
+            </label>
+            <label>
+                <input type="checkbox" name="veiculos" value="Veiculo">Aluguel de veículo <br>
+            </label>
+            <label>
+                <input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de Hospedagem<br>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Forma de pagamento</legend>
+            <label>
+                <input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito<br>
+            </label>
+            <label>
+                <input type="radio" name="formaPagamento" value="Boleto">Boleto<br>
+            </label>
+            <label>
+                <input type="radio" name="formaPagamento" value="Pix">Pix<br>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Prazo de Pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">À vista</option>
+                <option value="5x">5x Sem juros</option>
+                <option value="10x">10x Com juros</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
